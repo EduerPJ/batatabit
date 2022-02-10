@@ -251,3 +251,23 @@ main {
   line-height: 1.5rem;
   font-weight: 300;
 }
+
+.main-tables-container .next_table_icon {
+  position: absolute;
+  left: 35%;
+  right: 14%;
+  top: 75%;
+  bottom: -5%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.next_table_icon .next_table__icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('../icons/right-arrow.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
