@@ -252,21 +252,38 @@ main {
   font-weight: 300;
 }
 
-.main-tables-container .next_table_icon {
+.next_table_icon {
   position: absolute;
-  left: 35%;
-  right: 14%;
-  top: 75%;
-  bottom: -5%;
-  width: 3rem;
-  height: 3rem;
+  right: 30px;
+  top: 943px;
+  width: 12px;
+  height: 8px;
 }
 
-.next_table_icon .next_table__icon {
+.next_table__icon {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
   background-image: url('../icons/right-arrow.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.previous_table_icon {
+  position: absolute;
+  display: none;
+  left: 30px;
+  top: 943px;
+  width: 12px;
+  height: 8px;
+}
+
+.previous_table__icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('../icons/left-arrow.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
