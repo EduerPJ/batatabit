@@ -443,7 +443,7 @@ main {
 
 .plans-container--slider {
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
   height: 316px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -463,7 +463,7 @@ main {
   position: relative;
   scroll-snap-align: center;
   width: 70%;
-  min-width: 230px;
+  min-width: 190px;
   max-width: 300px;
   height: 250px;
   margin: 50px auto 0;
@@ -587,4 +587,36 @@ main {
 
 .unlimited .plan-card--price span {
   left: 50px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 150px;
+  padding-left: 10px;
+  background-color: var(--bitcoin-orange);
+}
+
+.footer--left ul {
+  list-style: none;
+}
+
+.footer--left ul li {
+  padding: 5px;
+}
+
+.footer--left ul li a {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: var(--just-white);
+  text-decoration: none;
+}
+
+.footer--right p {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
 }
